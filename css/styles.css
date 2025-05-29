@@ -18,6 +18,9 @@ h2 {
 .topbar {
     text-align: center;
 }
+.topbar header {
+    margin-bottom: 1rem;
+}
 .topbar header img {
     display: block;
     margin: 0 auto;
@@ -31,7 +34,7 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 2rem;
 }
 /*MAIN STYLING*/
 
@@ -73,7 +76,10 @@ footer div {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4); /* darkens entire image */
+    background: linear-gradient(
+        rgba(0,0,0,0.2), 
+        rgba(0,0,0,0.80)
+    ); /* dark at top, fades to lighter */
     z-index: 0;
   }
   
